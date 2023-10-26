@@ -18,8 +18,8 @@
                     <input type="button" value="AC" onclick="display.value = '' " class="bb">
                     <input type="button" value="DE" onclick="display.value = display.value.toString().slice
                     (0,-1)"  class="bb">
-                    <input type="button" value="." onclick="display.value = '.' "  class="bb">
-                    <input type="button" value="/" onclick="display.value = '/' "  class="bb">
+                    <input type="button" value="." onclick="display.value += '.' "  class="bb">
+                    <input type="button" value="/" onclick="display.value += '/' "  class="bb">
                 </div>
                 <div>
                     <input type="button" value="7" onclick="display.value += '7' ">
@@ -42,11 +42,11 @@
                 <div>
                     <input type="button" value="00" onclick="display.value += '00' ">
                     <input type="button" value="0" onclick="display.value += '0' ">
-                    <input type="button" value="=" onclick="display.value = eval(display.value)"class="equal"  class="bb">
+                    <input type="button" value="=" onclick="display.value = eval (display.value)" class="equal"  class="bb">
                 </div>
             </form>                           
         </div>
     </div>
     
 </body>
-</html>
+</html>x
